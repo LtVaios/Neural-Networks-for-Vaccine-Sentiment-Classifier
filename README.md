@@ -1,5 +1,5 @@
 # A.I-Vaccine Sentiment Classifier
-In this project I use artificial intelligence and deep neural-networks to train a model to be able to tell if a person is an anti-vax, a pro-vax or none just by giving a tweet of theirs as input. Dataset Cleaning, Model Training, Plotting, statistics and metrics are included.
+In this project I use artificial intelligence and deep neural-networks to train a model to be able to tell if a person is an anti-vax, a pro-vax or none just by giving a tweet of theirs as input. Dataset Cleaning, Model Training, Plotting, statistics and metrics are included. These models should have more than 72% accuracy on a similar testset!
 
 ## Installation / Run
 🛠️ You can download and open the jupyter notebooks in any platform that supports it, like google collab which is where this classifier was developed. You will also find the datasets in /data/ that the model uses to train and evaluate. Make sure to make a file named "data" in google collab and upload the datasets inside in order to instantly run the code.
