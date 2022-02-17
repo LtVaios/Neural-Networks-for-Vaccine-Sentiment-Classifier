@@ -30,11 +30,31 @@ Used a ready-to-go twitter dataset with each tweet marked if it is an anti-vax, 
     ▶️Batch size: 450 <br /> 
     ▶️Epochs: 50
     ▶️Also used:  dataset cleaning, Batch normalization, built-in sigmoid function
+  
+## 📎 Hyperparameters for BiDirectional Stacked RNN's
+### :white_check_mark: Model 1 (LSTM Cell)
+    ▶️Layers: 3 <br />
+    ▶️Number of hidden layers: 50 <br />
+    ▶️Gradient Cliping Rate: 4 <br />
+    ▶️Learning Rate: 8e-4 <br />
+    ▶️Dropout Propability: 25% <br />
+    ▶️Loss Function: Cross Entropy Loss  
+    ▶️Optimizer: Adam <br />
+    ▶️Batch size: 400 <br /> 
+    ▶️Epochs: 5
+### :white_check_mark: Model 2 (GRU Cell)
+    ▶️Layers: 4 <br />
+    ▶️Number of hidden layers: 30 <br />
+    ▶️Gradient Cliping Rate: 4 <br />
+    ▶️Learning Rate: 1e-3 <br />
+    ▶️Dropout Propability: 30% <br />
+    ▶️Loss Function: Cross Entropy Loss  
+    ▶️Optimizer: Adam <br />
+    ▶️Batch size: 300 <br /> 
+    ▶️Epochs: 5
     
  ## Built With
 <p float="left">
-
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/110px-Python-logo-notext.svg.png" alt="MarineGEO circle logo" style="height: 100px; width:100px;"/>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/PyTorch_logo_icon.svg/198px-PyTorch_logo_icon.svg.png" alt="MarineGEO circle logo" style="height: 120px; width:100px;"/>
  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/207px-Jupyter_logo.svg.png" style="height: 100px; width:100px;"/>
