@@ -8,49 +8,49 @@ In this project I use artificial intelligence and deep neural-networks to train 
 Used a ready-to-go twitter dataset with each tweet marked if it is an anti-vax, pro-vax or a neutral
 ## 📎 Hyperparameters for feed-forward-NN
 ### :white_check_mark: Model 1 (Tanh)
-    ▶️Activation function: Tanh <br />
-    ▶️Layers: 5 <br />
-    ▶️Size of layers: 256 -> 128 -> 64 -> 32 -> 3(output) <br />
-    ▶️Dropout Layers: 30%, 20% <br />
-    ▶️Learning Rate: 9e-4 <br />
+    ▶️Activation function: Tanh
+    ▶️Layers: 5
+    ▶️Size of layers: 256 -> 128 -> 64 -> 32 -> 3(output)
+    ▶️Dropout Layers: 30%, 20%
+    ▶️Learning Rate: 9e-4
     ▶️Loss Function: Cross Entropy Loss  
-    ▶️Optimizer: RAdam <br />
-    ▶️Batch size: 400 <br /> 
+    ▶️Optimizer: RAdam
+    ▶️Batch size: 400
     ▶️Epochs: 50
     ▶️Also used:  dataset cleaning, Batch normalization, built-in sigmoid function
     
 ### :white_check_mark: Model 2 (PReLU)
-    ▶️Activation function: PReLU <br />
-    ▶️Layers: 5 <br />
-    ▶️Size of layers: 125 -> 125 -> 75 -> 30 -> 3(output) <br />
-    ▶️Dropout Layers: 30%, 20% <br />
-    ▶️Learning Rate: 2e-4 <br />
+    ▶️Activation function: PReLU
+    ▶️Layers: 5
+    ▶️Size of layers: 125 -> 125 -> 75 -> 30 -> 3(output)
+    ▶️Dropout Layers: 30%, 20%
+    ▶️Learning Rate: 2e-4
     ▶️Loss Function: Cross Entropy Loss  
-    ▶️Optimizer: RAdam <br />
-    ▶️Batch size: 450 <br /> 
+    ▶️Optimizer: RAdam
+    ▶️Batch size: 450
     ▶️Epochs: 50
     ▶️Also used:  dataset cleaning, Batch normalization, built-in sigmoid function
   
 ## 📎 Hyperparameters for BiDirectional Stacked RNN's
 ### :white_check_mark: Model 1 (LSTM Cell)
-    ▶️Layers: 3 <br />
-    ▶️Number of hidden layers: 50 <br />
-    ▶️Gradient Cliping Rate: 4 <br />
-    ▶️Learning Rate: 8e-4 <br />
-    ▶️Dropout Propability: 25% <br />
+    ▶️Layers: 3
+    ▶️Number of hidden layers: 50
+    ▶️Gradient Cliping Rate: 4 
+    ▶️Learning Rate: 8e-4
+    ▶️Dropout Propability: 25%
     ▶️Loss Function: Cross Entropy Loss  
-    ▶️Optimizer: Adam <br />
-    ▶️Batch size: 400 <br /> 
+    ▶️Optimizer: Adam
+    ▶️Batch size: 400
     ▶️Epochs: 5
 ### :white_check_mark: Model 2 (GRU Cell)
-    ▶️Layers: 4 <br />
-    ▶️Number of hidden layers: 30 <br />
-    ▶️Gradient Cliping Rate: 4 <br />
-    ▶️Learning Rate: 1e-3 <br />
-    ▶️Dropout Propability: 30% <br />
+    ▶️Layers: 4
+    ▶️Number of hidden layers: 30
+    ▶️Gradient Cliping Rate: 4
+    ▶️Learning Rate: 1e-3
+    ▶️Dropout Propability: 30%
     ▶️Loss Function: Cross Entropy Loss  
-    ▶️Optimizer: Adam <br />
-    ▶️Batch size: 300 <br /> 
+    ▶️Optimizer: Adam
+    ▶️Batch size: 300
     ▶️Epochs: 5
     
  ## Built With
