@@ -15,7 +15,7 @@ Used a ready-to-go twitter dataset with each tweet marked if it is an anti-vax, 
     ▶️Learning Rate: 9e-4
     ▶️Loss Function: Cross Entropy Loss  
     ▶️Optimizer: RAdam
-    ▶️Batch size: 400
+    ▶️Batch size: 400 
     ▶️Epochs: 50
     ▶️Also used:  dataset cleaning, Batch normalization, built-in sigmoid function
     
@@ -33,14 +33,14 @@ Used a ready-to-go twitter dataset with each tweet marked if it is an anti-vax, 
   
 ## 📎 Hyperparameters for BiDirectional Stacked RNN's
 ### :white_check_mark: Model 1 (LSTM Cell)
-    ▶️Layers: 3
-    ▶️Number of hidden layers: 50
-    ▶️Gradient Cliping Rate: 4 
-    ▶️Learning Rate: 8e-4
+    ▶️Layers: 3 
+    ▶️Number of hidden layers: 50 
+    ▶️Gradient Cliping Rate: 4
+    ▶️Learning Rate: 8e-4 
     ▶️Dropout Propability: 25%
     ▶️Loss Function: Cross Entropy Loss  
     ▶️Optimizer: Adam
-    ▶️Batch size: 400
+    ▶️Batch size: 400 
     ▶️Epochs: 5
 ### :white_check_mark: Model 2 (GRU Cell)
     ▶️Layers: 4
